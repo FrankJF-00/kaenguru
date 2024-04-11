@@ -91,6 +91,8 @@ doc.original.addEventListener("click", () => {
   for (let quote of randomQuotes) {
     if (quote.quote.includes(doc.quoteContainer.innerText)) {
       doc.authorContainer.innerText = quote.author;
+    } else if ((doc.quoteContainer = "")) {
+      alert("Du mußt zuerst ein neues Zitat erzeugen.");
     }
   }
 });
