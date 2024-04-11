@@ -88,7 +88,7 @@ const randomQuotes = [
     author: "Axel Springer",
   },
   {
-    quote: '"Jedes Publikum kriegt die Vorstellung, die es v"',
+    quote: '"Jedes Publikum kriegt die Vorstellung, die es verdient."',
     author: "Mario Barth",
   },
 ];
