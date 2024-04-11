@@ -54,4 +54,5 @@ main {
   margin-right: 2rem;
   cursor: pointer;
   border: #000 0.1rem solid;
+  border-radius: 0.5rem;
 }
