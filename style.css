@@ -21,9 +21,7 @@ main {
   position: relative;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-  padding: 3rem 3rem 20rem 3rem;
-  height: fit-content;
+  margin: 1rem auto;
   background-image: url("bubble.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -31,7 +29,7 @@ main {
 .quote {
   width: 35rem;
   padding: 2rem 4rem 2rem 2rem;
-  margin: 0 auto;
+  margin: 2rem auto 1rem;
   font-size: 2.2rem;
   text-align: center;
   font-style: italic;
