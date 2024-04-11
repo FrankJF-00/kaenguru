@@ -75,11 +75,6 @@ const randomQuotes = [
     author: "Buddha",
   },
   {
-    quote:
-      '"Die Macht ist nicht etwas, was man erwirbt, wegnimmt, teilt, was man bewahrt oder verliert; die Macht ist etwas, was sich von unzähligen Punkten aus und im Spiel ungleicher und beweglicher Beziehungen vollzieht."',
-    author: "Darth Vader",
-  },
-  {
     quote: '"Niemand hat die Absicht, eine Mauer zu errichten."',
     author: "Bob der Baumeister",
   },
