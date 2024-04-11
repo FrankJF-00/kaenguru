@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://img.zeit.de/kaenguru-comics/die-kaenguru-comics-header/cinema__1000x428");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  display: flex;
+  width: 100%;
+}
+.quote-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3rem 3rem 20rem 3rem;
+  height: fit-content;
+  background-image: url("bubble.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.quote {
+  width: 35rem;
+  padding: 2rem 4rem 2rem 2rem;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  text-align: center;
+  font-style: italic;
+}
+.author {
+  align-self: flex-end;
+  padding-right: 4rem;
+  font-size: 1.75rem;
+}
+.btn-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem 0;
+}
+.btn-container button {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #fff;
+  margin-right: 2rem;
+  cursor: pointer;
+  border: #000 0.1rem solid;
+}
